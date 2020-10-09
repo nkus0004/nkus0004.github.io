@@ -3,10 +3,18 @@
 
 <head>
     <meta charset="UTF-8">
-    <title> Week 2 - HTML Text Semantics</title>
+    <title> Reggie's Coffee Shop - Home</title>
 </head>
 
 <body>
+
+    <!-- Site Header -->
+    <header>
+        <h1>My picture</h1>
+        <!-- Adding image -->
+        <img src="images/IMG_7695.jpg" alt="picture of serge in nature"
+        <nav> Navigation</nav>
+    </header>
 
 </body>
 
