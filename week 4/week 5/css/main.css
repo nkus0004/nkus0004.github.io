@@ -38,4 +38,5 @@ h6 {
 nav ul a{
     color: darkslategrey;
     text-decoration: none;
+    list-style-type: square;
 }
