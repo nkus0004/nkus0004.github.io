@@ -1,6 +1,18 @@
 body{
     font-family:Arial, Helvetica, sans-serif;
     color: darkslategrey;
+    font-size: 18px;
+}
+
+header{
+    background-color: red;
+}
+
+footer{
+    background-color: red;
+}
+.serge{
+    color: white;
 }
 /*
 This is a CSS Comment
