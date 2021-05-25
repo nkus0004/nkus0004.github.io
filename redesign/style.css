@@ -1,0 +1,124 @@
+#nav.nav {
+    max-width: ;
+    border: none;
+    width: auto;
+    background-color: ;
+}
+.nav-link {
+    max-width: 1200px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    margin-top: -5rem;
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: black;
+    margin-top: -5rem;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    margin-top: 3rem;
+    line-height: 30px;
+}
+
+#main.main{
+    background: black;
+    font-size: 17px;
+}
+
+.about>h2{
+    color:black;
+}
+
+#about.about{
+    color: black;
+    font-size: 17px;
+}
+
+.about>p {
+    color: black;
+    margin-top: 2.3rem;
+    margin-left: 2rem;
+    margin-right: 3rem;
+}
+
+img{
+    margin-top: 2.3rem;
+}
+
+#contact.contact {
+    background: black;
+    width: 1200px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 17px;
+}
+
+#contact .contact-form{
+    width: auto;
+    background: black;
+    padding-right: 2.6rem;
+}
+
+.contact>p {
+    color: black;
+    margin-left: 2rem;
+    margin-right: 1.5rem;
+}
+
+label{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+.contact-form-label {
+    font-size: 18px;
+}
+.contact-form-input{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 10%;
+}
+
+button{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    background: black;
+    color: black;
+    font-size: 13px;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+}
+
+footer{
+    max-width: 1200px;
+    width: auto;
+    margin: auto;
+    background: black;
+    color: black;
+    margin-top: -5rem;
+}
+
+footer>p{
+    margin-left: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+/* This is the desktop version, the header will be displayed in rows instead of columns */
+@media screen and (min-width:957px){
+    .nav-link{
+        display: inline-flex;
+        flex-wrap: wrap;
+    }
+}
