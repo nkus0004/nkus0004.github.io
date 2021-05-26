@@ -1,47 +1,56 @@
 #nav.nav {
-    max-width: ;
+    max-width: 1200px;
     border: none;
     width: auto;
-    background-color: ;
+    background-color: #24324457;
 }
 .nav-link {
     max-width: 1200px;
     font-family: 'Times New Roman', Times, serif;
     color: black;
+    font-weight: bold;
     display: flex;
     justify-content: center;
 }
 
 h1{
     margin-top: -5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+
 }
 
 h2{
     font-family: 'Times New Roman', Times, serif;
-    font-weight: bolder;
+    font-weight: bold;
     color: black;
     margin-top: -5rem;
 }
 
 p{
     font-family: 'Times New Roman', Times, serif;
-    font-weight: lighter;
+    font-weight: light;
     margin-top: 3rem;
-    line-height: 30px;
+    line-height: 40px;
 }
 
 #main.main{
-    background: black;
+    background: white;
     font-size: 17px;
 }
 
 .about>h2{
     color:black;
+    font-size: 40px;
 }
 
-#about.about{
-    color: black;
+#about.about {
+    background: #9ec6fa57;
     font-size: 17px;
+}
+
+#home.home {
+    background: #9ec6fa57;
 }
 
 .about>p {
@@ -56,7 +65,7 @@ img{
 }
 
 #contact.contact {
-    background: black;
+    background: #9ec6fa57;
     width: 1200px;
     margin-left: 1rem;
     margin-right: 1rem;
@@ -65,7 +74,7 @@ img{
 
 #contact .contact-form{
     width: auto;
-    background: black;
+    background: white;
     padding-right: 2.6rem;
 }
 
@@ -82,16 +91,11 @@ label{
 .contact-form-label {
     font-size: 18px;
 }
-.contact-form-input{
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    width: 10%;
-}
 
 button{
     font-family: 'Times New Roman', Times, serif;
     display: flex;
-    background: black;
+    background: #9ec6fa57;
     color: black;
     font-size: 13px;
     margin-top: 0.5rem;
@@ -102,7 +106,7 @@ footer{
     max-width: 1200px;
     width: auto;
     margin: auto;
-    background: black;
+    background: #9ec6fa57;
     color: black;
     margin-top: -5rem;
 }
@@ -113,6 +117,7 @@ footer>p{
     margin-bottom: 1rem;
     padding-top: 1em;
     padding-bottom: 1em;
+    color: black;
 }
 
 /* This is the desktop version, the header will be displayed in rows instead of columns */
