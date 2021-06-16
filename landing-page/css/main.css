@@ -1,0 +1,406 @@
+/* This section is for the scooter in the background */
+html{
+    font-family: 'montserrat', sans-serif;
+    background-color: white;
+    background-position: url(/landingpage/images/scooter.svg);
+    background-position: 45% 25%;
+    background-size: 60%;
+}
+
+.logo {
+    margin-left: 2rem;
+    width: 100px;
+}
+
+/* All the texts and headers will be using the montserrat font */
+h1{
+    font-size: 65px;
+    max-width: 300px;
+    margin-left: 2rem;
+}
+
+h2{
+    font-size: 40px;
+    text-align: center;
+}
+
+/* This is for the about section */
+
+.about{
+    width: auto;
+    font-size: 25px;
+    margin-left: 2rem;
+    margin-right: 8rem;
+    margin-bottom: 12em
+}
+
+/* This is used for the form */
+h2 {  auto;
+    max-width: 525px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: -5rem;
+}
+ 
+.info-below {
+    margin: auto;
+    max-width: 530px;
+    margin-left: -6.5rem;
+    margin-bottom: 1rem;
+}
+ 
+/* The form will be able to be used to write that information about yourself*/
+.signupform {
+    width: 90%;
+    text-align: center;
+    box-shadow: 1px 1px 8px 1px rgb(97, 96, 96);
+    border-radius: 26px;
+    border: none;
+    background-color: white;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    margin-left: 2.5rem;
+}
+ 
+ 
+.firstname,
+.lastname,
+.phonenumber,
+.emailaddress {
+    margin-left: -1.0rem;
+    background-color: #F4F4F5;
+}
+ 
+input {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 1rem;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+}
+ 
+/* The agreement will only have a statement and a checkbox */
+.agreement {
+    font-family: 'Montserrat', sans-serif;
+    max-width: 525px;
+    margin-left: -5.5rem;
+}
+ 
+ 
+.drivewithus {
+    width: 70%;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #43c98d;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-radius: 10px;
+    border: none;
+ 
+}
+ 
+form>.drivewithus {
+    margin-left: -1rem;
+ 
+}
+ 
+/* The text right hear will have an orange colour to see it more clearly */
+.orangetext {
+    max-width: 100px;
+    color: #e47470;
+}
+ 
+.orangetext,
+.applied {
+    text-align: left;
+    margin-left: 0.5rem;
+    font-size: 16px;
+}
+ 
+/* This is the section where you do a calculation. */
+.Calculation {
+    margin: auto;
+    width: auto;
+    text-align: center;
+    padding-top: 0.5em;
+    margin-top: 3rem;
+    margin-left: -1rem;
+    margin-bottom: -2rem;
+    margin-right: -0.5rem;
+    background: #f7f57c;
+}
+ 
+.Calculation,
+.socialmedia {
+    background: #fdfb7d;
+ 
+}
+ 
+.calculation-p1 {
+    text-align: left;
+    max-width: 400px;
+    margin-right: 7rem;
+    margin-left: 6rem;
+    font-weight: bold;
+ 
+}
+ 
+.calculation-p2 {
+    text-align: left;
+    max-width: 500px;
+    margin-left: 5rem;
+    margin-right: 6rem;
+    margin-bottom: 1rem;
+}
+ 
+.hours>input {
+    margin: auto;
+    width: auto;
+    max-width: 50px;
+    display: flex;
+    width: 68px;
+    margin-left: 5.8rem;
+    padding-right: 1.6em;
+    padding-left: 0.3em;
+}
+ 
+.City>input {
+    margin: auto;
+    width: auto;
+    display: flex;
+    margin-bottom: 1rem;
+    width: 200px;
+    padding-left: 0.3em;
+    margin-left: 10rem;
+ 
+}
+ 
+.City {
+    margin-left: 0.9rem;
+}
+ 
+form>.calculatebutton {
+    width: 18rem;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #f76b66;
+    color: white;
+    margin-bottom: 1rem;
+    margin-right: -9rem;
+    padding: 0.2em;
+    border-radius: 10px;
+    border: none;
+ 
+}
+ 
+/* This part is for the social media icons which is very important for advertisement */
+.socialmedia {
+    max-width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 1em;
+}
+ 
+/* The facebook logo is going to be a circle instead of the square */
+.facebook {
+    border-radius: 50px;
+}
+ 
+.linkedin,
+.twitter {
+    border-radius: 5px;
+}
+ 
+/* Tablet Layout */
+ 
+@media screen and (min-width:500px) {
+    .about {
+        width: auto;
+        max-width: 550px;
+    }
+ 
+    /* The form is only going to expand. The layout and everything else will stay the same. */
+    .signupform {
+        margin: auto;
+        max-width: 550px;
+    }
+ 
+    .firstname,
+    .lastname,
+    .phonenumber,
+    .emailaddress {
+        width: 70%;
+    }
+ 
+    .calculation-p1 {
+        width: auto;
+        font-weight: bold;
+ 
+    }
+ 
+    .hours>input {
+        display: flex;
+        float: left;
+        width: 10%;
+        padding-right: 1em;
+        padding-left: 0.3em;
+ 
+    }
+ 
+    .City>input {
+        display: flex;
+        flex-wrap: wrap;
+    }
+ 
+    .calculatebutton {
+        margin-left: -10rem;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+ 
+    .facebook,
+    .instagram,
+    .twitter,
+    .linkedin {
+        margin: auto;
+        width: auto;
+        display: inline;
+    }
+ 
+    .socialmedia {
+        margin: auto;
+        width: auto;
+    }
+}
+ 
+/* this is still for tablets */
+@media screen and (min-width:620px) {
+    h1 {
+        font-size: 80px;
+        max-width: 500px;
+    }
+ 
+    .about {
+        width: auto;
+    }
+ 
+    .applied {
+        text-align: center;
+    }
+ 
+    .City>input {
+        display: block;
+        float: left;
+        margin-left: 1rem;
+        width: 200px;
+    }
+ 
+    .calculatebutton {
+        display: block;
+        margin-left: 25rem;
+        max-width: 180px;
+    }
+}
+ 
+/* This is desktop version of the website which is 1200px */
+@media screen and (min-width:1200px) {
+ 
+    /* The image background is going to be as closest as possible to the background */
+    html {
+        background-image: url(/landingpage/images/scooter.svg);
+        background-size: 50%;
+        background-position: 46% 49%;
+    }
+ 
+    .about {
+        margin-top: -3rem;
+    }
+ 
+    .logo {
+        width: 8%;
+    }
+ 
+    h1 {
+        margin-bottom: 6rem;
+    }
+ 
+    .signupform {
+        margin: auto;
+        width: auto;
+        width: 33%;
+        margin-right: 50px;
+        margin-top: -44rem;
+    }
+ 
+    .applied {
+        text-align: center;
+    }
+ 
+    .drivewithus {
+        width: 70%;
+    }
+ 
+    .firstname,
+    .lastname,
+    .phonenumber,
+    .emailaddress {
+        width: 70%;
+    }
+ 
+    .Calculation {
+        background-color: #ecea6c;
+        margin-top: 9rem;
+        padding-bottom: 5em;
+        padding-top: 2em;
+    }
+ 
+    .calculation-p1 {
+        margin-left: 6rem;
+    }
+ 
+    .calculation-p2 {
+        margin-left: 6rem;
+    }
+ 
+    .hours>input {
+        display: flex;
+        float: left;
+        width: 7%;
+    }
+ 
+    .City>input {
+        display: flex;
+        float: left;
+        margin-left: 1rem;
+        width: 200px;
+    }
+ 
+    .socialmedia {
+        margin-left: 70rem;
+        margin-top: -3.5rem;
+ 
+    }
+ 
+    /* This is where I swaped the order of the social media icons */
+    .socialmedia>.instagram {
+        display: flex;
+        order: -1;
+    }
+ 
+    .socialmedia>.facebook {
+        display: flex;
+        order: 1;
+    }
+ 
+    .socialmedia>.linkedin {
+        display: flex;
+        order: 1;
+    }
+ 
+    .facebook {
+        border-radius: 5px;
+    }
+
